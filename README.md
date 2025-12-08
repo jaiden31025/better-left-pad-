@@ -6,4 +6,5 @@ Since I guess 1.8M JavaScript "Programmers" depend on NPM packages for basic "In
 ## Usage
 ```js
 padleft("words", 5);
+padleft("words", 5, "#");
 ```
