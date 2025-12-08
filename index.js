@@ -1,6 +1,6 @@
-function padLeft(text, amount){
+function padLeft(text, amount, ch = " "){
     for(let i = 0; i < amount; i++){
-        text = " " + text;
+        text = ch + text;
     }
     return text
 }
